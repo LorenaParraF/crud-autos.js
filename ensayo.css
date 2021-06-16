@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.clase_container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/conducir-auto-carreras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clase_row {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.507);
+  font-size: 25px;
+}
+.grupo_form {
+  display: inline-block;
+  width: 50%;
+  height: 8vh;
+  color: rgb(253, 253, 253);
+  margin: 15px;
+  text-transform: uppercase;
+}
+.form_titulo {
+  display: flex;
+  font-size: 28px;
+  margin: 15px;
+  text-transform: uppercase;
+  text-shadow: 12px 10px 10px #a1075c;
+  text-justify: distribute-all-lines;
+}
+.clase_form {
+  width: 28%;
+  color: #a1075c;
+}
+
+input,
+.label_marca_input
+  input.label_modelo_input
+  input.label_color
+  input.label_anio
+  input.label_puertas {
+  display: flex;
+  width: 25vw;
+  height: 40px;
+  border-radius: 25px;
+  justify-content: space-around;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: #a1075c;
+  border: solid #fcf8fa;
+}
+.clase_button {
+  width: 150px;
+  font-size: 30px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: rgb(255, 217, 0);
+  border: solid #fcf8fa;
+}
+.container_list {
+  width: 40%;
+  margin: 35px;
+}
+.titulo_list {
+  display: flex;
+  font-size: 35px;
+  color: #a1075c;
+  margin: 15px;
+  text-transform: uppercase;
+  text-shadow: 12px 10px 10px #a1075c;
+  text-justify: distribute-all-lines;
+  margin-top: 67px;
+}
+.inner_cars {
+  width: 100%;
+  margin: 5px;
+  height: 100vh;
+}
+.item_list {
+  display: flex;
+  margin: 8px;
+  color: aliceblue;
+  justify-content: space-between;
+}
+.contenedor_botones {
+  display: block;
+  margin: 10px;
+  border: 10px;
+  width: 30%;
+}
+.edit_botones {
+  display: flex;
+  width: 100%;
+}
+
+button#btn_edit,
+#btn_delet {
+  border-radius: 30px;
+  font-size: 30px;
+  transform: translateX(-450px);
+  color: aliceblue;
+  border: solid #fcf8fa;
+  width: 115px;
+}
+#btn_edit {
+  background-color: #02da26c9;
+  border: solid #fcf8fa;
+}
+
+#btn_delet {
+  background-color: #ca0202;
+  border: solid #fcf8fa;
+}
+p {
+  margin: 10px;
+}
