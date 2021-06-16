@@ -101,7 +101,7 @@ input,
 }
 .contenedor_botones {
   display: block;
-  margin: 10px;
+  margin-top: 50px;
   border: 10px;
   width: 30%;
 }
@@ -130,4 +130,6 @@ button#btn_edit,
 }
 p {
   margin: 10px;
+  transform: translateX(150px);
+  margin-top: 85px;
 }
